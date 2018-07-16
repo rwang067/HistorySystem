@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo "app = AvgDegree, dataset = undirected-LiveJournal1.txt from echo" >> graphchi_metrics.txt.statistics 
+  echo " nwalks = 100000, nsteps=20, tail=0.05, choose prob=0.2 from echo" >> graphchi_metrics.txt.statistics 
+  for(( times = 0; times < 10; times++))
+  do
+      echo "times = " $times " from echo"
+      bin/applications/avgdegree
+  done
+
+# filename=graphchi_metrics.txt.statistics
+
+# echo "some thing wrong" >> "$filename"
+# echo "graphchi : load iteratively walkonce updatebyvertex2 " >> "$filename"
+# echo " LJ nwalks = 9495200 " >> "$filename"
+# for(( nsteps = 4; nsteps <= 32; nsteps = nsteps + 4 ))
+# do
+# 	echo "prob = " $prob " nsteps = " $nsteps "  nwalks = " $nwalks "  from echo" >> "$filename"
+# 	for(( times = 0; times < 10; times++))
+# 	do
+# 		bin/applications/pagerank nsteps $nsteps
+# 	done
+# done

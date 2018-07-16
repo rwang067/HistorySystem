@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#echo "I love WangRui !!!"
+
+#dataset=("ciao" "nethept" "epinions" "Slashdot0811" "Slashdot0902" "yelp" "flixster" "LiveJournal1" "Twitter")
+
+#for (( D = 0; D < 8; D++ ))
+#do
+	#data=./result/${dataset[$D]}.csv
+	#echo "$data"
+
+	for(( niters = 4; niters <= 32; niters += 4 ))
+	do
+    		# g++ src/main.cpp -Wall -std=c++11 -O3 src/sfmt/SFMT.c  -o RWS
+    		#echo "${dataset[$D]}	k = $k" >> "$data"
+    		for(( times = 0; times < 10; times++))
+    		do
+    			#./RWS $D $k
+    			#echo $D $k "from echo"
+                               echo "niters = " $niters " from echo"
+                               bin/example_apps/randomwalks file '/home/wang/Documents/graph processing system/dataset/C++-LiveJournal1/soc-LiveJournal1.txt' niters $niters
+    		done
+	done
+#done

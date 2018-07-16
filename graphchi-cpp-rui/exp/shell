@@ -1,0 +1,91 @@
+# !/bin/bash
+
+filename=graphchi_metrics.txt.statistics
+echo "" >> "$filename"
+echo "" >> "$filename"
+echo "shell begin -- graphchi " >> "$filename"
+for(( nsteps = 100; nsteps <= 1000; nsteps = nsteps*10 ))
+do
+    for(( nwalks = 1000; nwalks <= 1000000; nwalks = nwalks*10 ))
+    do
+        echo "nsteps = " $nsteps "  nwalks = " $nwalks "  from echo" >> "$filename"
+        for(( times = 0; times < 10; times++))
+        do
+            graphchi-cpp-rui-iteratively/bin/applications/avgdegree file '/home/wang/Documents/graph processing system/dataset/C++-LiveJournal1/soc-LiveJournal1.txt' nvertices 4847571 nsteps $nsteps nwalks $nwalks
+        done
+    done
+done
+
+# filename=graphchi_metrics.txt.statistics
+# echo "///////////////////////////////////////////////" >> "$filename" 
+# echo "shell begin -- load on demand rbi = 0.005 - 0.009 " >> "$filename" 
+# for(( rb = 2; rb <= 2; rb += 1))
+# do
+#   for(( rbi = 5; rbi <= 9; rbi += 1 ))
+#   do
+#     for(( nsteps = 100; nsteps <= 100; nsteps = nsteps*10 ))
+#     do
+#         for(( nwalks = 10000; nwalks <= 10000; nwalks = nwalks*10 ))
+#         do
+#             echo "rb = " 0.$rb "  rbi = " 0.00$rbi " nsteps = " $nsteps "  nwalks = " $nwalks "  from echo" >> "$filename"
+#             for(( times = 0; times < 10; times++))
+#             do
+#                 echo "rb = " 0.$rb "  rbi = " 0.00$rbi " nsteps = " $nsteps "  nwalks = " $nwalks "  from echo"
+#                 bin/applications/avgdegree file '/home/wang/Documents/graph processing system/dataset/C++-LiveJournal1/soc-LiveJournal1.txt' nvertices 4847571 nsteps $nsteps nwalks $nwalks rbound 0.$rb rboundin 0.00$rbi
+#             done
+#           done
+#         done
+#     done
+# done
+
+# filename=graphchi_metrics.txt.statistics
+# echo "///////////////////////////////////////////////" >> "$filename" 
+# echo "shell begin -- load on demand rbi = 0.010 - 0.019 " >> "$filename" 
+# for(( rb = 2; rb <= 2; rb += 1))
+# do
+#   for(( rbi = 0; rbi <= 9; rbi += 1 ))
+#   do
+#     for(( nsteps = 100; nsteps <= 100; nsteps = nsteps*10 ))
+#     do
+#         for(( nwalks = 10000; nwalks <= 10000; nwalks = nwalks*10 ))
+#         do
+#             echo "rb = " 0.$rb "  rbi = " 0.01$rbi " nsteps = " $nsteps "  nwalks = " $nwalks "  times = " $times "  from echo" >> "$filename"
+#             for(( times = 0; times < 10; times++))
+#             do
+#                 echo "rb = " 0.$rb "  rbi = " 0.01$rbi " nsteps = " $nsteps "  nwalks = " $nwalks "  times = " $times"  from echo"
+#                 bin/applications/avgdegree file '/home/wang/Documents/graph processing system/dataset/C++-LiveJournal1/soc-LiveJournal1.txt' nvertices 4847571 nsteps $nsteps nwalks $nwalks rbound 0.$rb rboundin 0.01$rbi
+#             done
+#           done
+#         done
+#     done
+# done
+
+filename=graphchi_metrics.txt.statistics
+echo "///////////////////////////////////////////////" >> "$filename" 
+echo "shell begin -- load on demand rb = 0.00 -- 0.90 " >> "$filename" 
+for(( rb = 0; rb <= 9; rb += 1)) # 0 - 0.9
+do
+  for(( rbi = 0; rbi <= 0; rbi += 1 ))
+  do
+    for(( nsteps = 100; nsteps <= 100; nsteps = nsteps*10 ))
+    do
+        for(( nwalks = 10000; nwalks <= 10000; nwalks = nwalks*10 ))
+        do
+            echo "rb = " 0.$rb "  rbi = " 0.00$rbi " nsteps = " $nsteps "  nwalks = " $nwalks "  from echo" >> "$filename"
+            for(( times = 0; times < 10; times++))
+            do
+                echo "rb = " 0.$rb "  rbi = " 0.00$rbi " nsteps = " $nsteps "  nwalks = " $nwalks "  times = " $times"  from echo"
+                bin/applications/avgdegree file '/home/wang/Documents/graph processing system/dataset/C++-LiveJournal1/soc-LiveJournal1.txt' nvertices 4847571 nsteps $nsteps nwalks $nwalks rbound 0.$rb rboundin 0.00$rbi
+            done
+            v5=5
+            echo "rb = " 0.$rb$v5"  rbi = "  0.00$rbi " nsteps = " $nsteps "  nwalks = " $nwalks "  from echo" >> "$filename"
+            for(( times = 0; times < 10; times++))
+            do
+
+                echo "rb = " 0.$rb$v5"  rbi = "  0.00$rbi " nsteps = " $nsteps "  nwalks = " $nwalks "  times = " $times"  from echo"
+                bin/applications/avgdegree file '/home/wang/Documents/graph processing system/dataset/C++-LiveJournal1/soc-LiveJournal1.txt' nvertices 4847571 nsteps $nsteps nwalks $nwalks rbound 0.$rb$v5 rboundin 0.00$rbi
+            done
+          done
+        done
+    done
+done

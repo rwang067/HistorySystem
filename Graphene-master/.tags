@@ -1,0 +1,371 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACTIVE	graphene/test/kcore/util.h	12;"	d
+BIN_STRUCT_READER	converter/multi_bin_to_2d_csr/bin_struct_reader.h	10;"	d
+EVICTED	graphene/lib/comm.h	29;"	d
+FLOATMAX	graphene/test/randomwalks/pagerank.cpp	16;"	d	file:
+FLOATMAX	graphene/test/rw_pr/pagerank.cpp	16;"	d	file:
+INFTY	graphene/test/apsp/util.h	11;"	d
+INFTY	graphene/test/bfs/util.h	10;"	d
+INFTY	graphene/test/kcore/util.h	13;"	d
+INFTY	graphene/test/pagerank/util.h	10;"	d
+INFTY	graphene/test/randomwalks/util.h	10;"	d
+INFTY	graphene/test/rw_pr/util.h	10;"	d
+INFTY	graphene/test/spmv/util.h	10;"	d
+INFTY	graphene/test/wcc/util.h	10;"	d
+INFTY_MAX	converter/multi_bin_to_2d_csr/bin_struct_reader.h	12;"	d
+IO_smart_iterator	graphene/lib/IO_smart_iterator.cpp	/^IO_smart_iterator::IO_smart_iterator($/;"	f	class:IO_smart_iterator
+IO_smart_iterator	graphene/lib/IO_smart_iterator.h	/^		IO_smart_iterator(){};$/;"	f	class:IO_smart_iterator
+IO_smart_iterator	graphene/lib/IO_smart_iterator.h	/^class IO_smart_iterator$/;"	c
+LOADED	graphene/lib/comm.h	31;"	d
+LOADING	graphene/lib/comm.h	30;"	d
+MAX_EVENTS	graphene/lib/comm.h	68;"	d
+MAX_NUM_ELEMENTS	graphene/lib/IO_smart_iterator.h	/^		long MAX_NUM_ELEMENTS;$/;"	m	class:IO_smart_iterator
+MAX_USELESS	graphene/lib/cache_driver.h	/^		index_t MAX_USELESS;$/;"	m	class:cache_driver
+PROCESSED	graphene/lib/comm.h	33;"	d
+PROCESSING	graphene/lib/comm.h	32;"	d
+READ_BLK	graphene/lib/comm.h	64;"	d
+VERT_PER_BLK	graphene/lib/IO_smart_iterator.h	/^		index_t VERT_PER_BLK;$/;"	m	class:IO_smart_iterator
+VERT_PER_BLK	graphene/lib/cache_driver.h	/^		index_t VERT_PER_BLK;$/;"	m	class:cache_driver
+_H_GET_COL_RANGER_	graphene/lib/get_col_ranger.hpp	5;"	d
+_H_GET_VERT_COUNT_	graphene/lib/get_vert_count.hpp	5;"	d
+_H_PIN_THREAD_	graphene/lib/pin_thread.h	2;"	d
+_UTIL_H_	converter/multi_bin_to_2d_csr/util.hpp	2;"	d
+__CACHE_DRIVER__	graphene/lib/cache_driver.h	2;"	d
+__CIRCLE__	graphene/lib/circle.h	2;"	d
+__COMM_H__	graphene/lib/comm.h	2;"	d
+__H_TIME__	converter/multi_bin_to_2d_csr/wtime.h	2;"	d
+__H_TIME__	graphene/lib/wtime.h	2;"	d
+__ITERATOR__	graphene/lib/IO_smart_iterator.h	7;"	d
+__UTIL_H__	graphene/test/apsp/util.h	2;"	d
+__UTIL_H__	graphene/test/bfs/util.h	2;"	d
+__UTIL_H__	graphene/test/kcore/util.h	2;"	d
+__UTIL_H__	graphene/test/pagerank/util.h	2;"	d
+__UTIL_H__	graphene/test/randomwalks/util.h	2;"	d
+__UTIL_H__	graphene/test/rw_pr/util.h	2;"	d
+__UTIL_H__	graphene/test/spmv/util.h	2;"	d
+__UTIL_H__	graphene/test/wcc/util.h	2;"	d
+aligned_par	converter/multi_bin_to_2d_csr/util.hpp	/^inline int aligned_par(vertex_t *ranger, int num_par, vertex_t vert )$/;"	f
+aligned_row	converter/multi_bin_to_2d_csr/util.hpp	/^inline int aligned_row(struct_ranger_beg<index_t> **st_beg, int num_rows, vertex_t src)$/;"	f
+array	graphene/lib/circle.h	/^		int *array;$/;"	m	class:circle
+balanced_2d_partition	converter/multi_bin_to_2d_csr/balanced_2d_partition.hpp	/^void balanced_2d_partition ($/;"	f
+beg_pos_2d	converter/multi_bin_to_2d_csr/beg_pos_2d.hpp	/^void beg_pos_2d ($/;"	f
+beg_pos_ptr	graphene/lib/IO_smart_iterator.h	/^		index_t *beg_pos_ptr;$/;"	m	class:IO_smart_iterator
+beg_vert	graphene/lib/comm.h	/^	vertex_t beg_vert;\/\/first vert whose neighbors $/;"	m	struct:chunk
+bin_struct_reader	converter/multi_bin_to_2d_csr/bin_struct_reader.h	/^class bin_struct_reader$/;"	c
+bin_struct_reader	converter/multi_bin_to_2d_csr/bin_struct_reader.hpp	/^bin_struct_reader(const char* filename)$/;"	f	class:bin_struct_reader
+bit_t	graphene/test/apsp/util.h	/^typedef unsigned char bit_t;$/;"	t
+bit_t	graphene/test/bfs/util.h	/^typedef unsigned char bit_t;$/;"	t
+bit_t	graphene/test/kcore/util.h	/^typedef unsigned char bit_t;$/;"	t
+bit_t	graphene/test/pagerank/util.h	/^typedef unsigned char bit_t;$/;"	t
+bit_t	graphene/test/randomwalks/util.h	/^typedef unsigned char bit_t;$/;"	t
+bit_t	graphene/test/rw_pr/util.h	/^typedef unsigned char bit_t;$/;"	t
+bit_t	graphene/test/spmv/util.h	/^typedef unsigned char bit_t;$/;"	t
+bit_t	graphene/test/wcc/util.h	/^typedef unsigned char bit_t;$/;"	t
+blk_beg_off	graphene/lib/comm.h	/^	index_t blk_beg_off;\/\/the begin pos of this block$/;"	m	struct:chunk
+blk_beg_vert	graphene/lib/IO_smart_iterator.h	/^		vertex_t *blk_beg_vert;$/;"	m	class:IO_smart_iterator
+blk_beg_vert	graphene/lib/cache_driver.h	/^		vertex_t *blk_beg_vert;$/;"	m	class:cache_driver
+blk_per_chunk	graphene/lib/cache_driver.h	/^		index_t blk_per_chunk;$/;"	m	class:cache_driver
+buff	graphene/lib/cache_driver.h	/^		vertex_t *buff;$/;"	m	class:cache_driver
+buff	graphene/lib/comm.h	/^	vertex_t *buff;\/\/buffer for loading data$/;"	m	struct:chunk
+buff_dest	graphene/lib/IO_smart_iterator.h	/^		vertex_t **buff_dest;$/;"	m	class:IO_smart_iterator
+buff_edge_count	graphene/lib/IO_smart_iterator.h	/^		index_t *buff_edge_count;$/;"	m	class:IO_smart_iterator
+buff_max_vert	graphene/lib/IO_smart_iterator.h	/^		long buff_max_vert;$/;"	m	class:IO_smart_iterator
+buff_source	graphene/lib/IO_smart_iterator.h	/^		sa_t **buff_source;$/;"	m	class:IO_smart_iterator
+buff_src_vert	graphene/lib/IO_smart_iterator.h	/^		vertex_t **buff_src_vert;$/;"	m	class:IO_smart_iterator
+cache	graphene/lib/cache_driver.h	/^		struct chunk **cache;	$/;"	m	class:cache_driver	typeref:struct:cache_driver::chunk
+cache_driver	graphene/lib/cache_driver.cpp	/^cache_driver::cache_driver($/;"	f	class:cache_driver
+cache_driver	graphene/lib/cache_driver.h	/^		cache_driver(){};$/;"	f	class:cache_driver
+cache_driver	graphene/lib/cache_driver.h	/^class cache_driver$/;"	c
+cb_func	graphene/lib/IO_smart_iterator.h	/^typedef bool (*cb_func)(index_t, sa_t, sa_t*, sa_t *);$/;"	t
+cc	converter/multi_bin_to_2d_csr/Makefile	/^cc = "$(shell which g++)" $/;"	m
+cc	converter/tuple_to_bin.multithread/Makefile	/^cc = "$(shell which g++)" $/;"	m
+cc	converter/tuple_to_bin.multithread/read/Makefile	/^cc = "$(shell which g++)" $/;"	m
+cc	graphene/test/apsp/Makefile	/^cc = "$(shell which g++)" $/;"	m
+cc	graphene/test/bfs/Makefile	/^cc = "$(shell which g++)" $/;"	m
+cc	graphene/test/kcore/Makefile	/^cc = "$(shell which g++)" $/;"	m
+cc	graphene/test/pagerank/Makefile	/^cc = "$(shell which g++)" $/;"	m
+cc	graphene/test/randomwalks/Makefile	/^cc = "$(shell which g++)" $/;"	m
+cc	graphene/test/rw_pr/Makefile	/^cc = "$(shell which g++)" $/;"	m
+cc	graphene/test/spmv/Makefile	/^cc = "$(shell which g++)" $/;"	m
+cc	graphene/test/wcc/Makefile	/^cc = "$(shell which g++)" $/;"	m
+cd	graphene/lib/IO_smart_iterator.h	/^		cache_driver *cd;$/;"	m	class:IO_smart_iterator
+chunk	graphene/lib/comm.h	/^struct chunk$/;"	s
+chunk_id	graphene/lib/comm.h	/^	index_t *chunk_id;$/;"	m	struct:io_req
+chunk_sz	graphene/lib/cache_driver.h	/^		size_t chunk_sz;$/;"	m	class:cache_driver
+circ_free_buff	graphene/lib/IO_smart_iterator.h	/^		circle *circ_free_buff;$/;"	m	class:IO_smart_iterator
+circ_free_chunk	graphene/lib/cache_driver.h	/^		circle *circ_free_chunk;$/;"	m	class:cache_driver
+circ_free_ctx	graphene/lib/cache_driver.h	/^		circle *circ_free_ctx;$/;"	m	class:cache_driver
+circ_load_buff	graphene/lib/IO_smart_iterator.h	/^		circle *circ_load_buff;$/;"	m	class:IO_smart_iterator
+circ_load_chunk	graphene/lib/cache_driver.h	/^		circle *circ_load_chunk;$/;"	m	class:cache_driver
+circ_submitted_ctx	graphene/lib/cache_driver.h	/^		circle *circ_submitted_ctx;$/;"	m	class:cache_driver
+circle	graphene/lib/circle.cpp	/^circle::circle(int size):size(size)$/;"	f	class:circle
+circle	graphene/lib/circle.h	/^		circle(){};$/;"	f	class:circle
+circle	graphene/lib/circle.h	/^class circle$/;"	c
+clean_caches	graphene/lib/cache_driver.cpp	/^void cache_driver::clean_caches()$/;"	f	class:cache_driver
+cmpfunc	graphene/lib/IO_smart_iterator.cpp	/^int cmpfunc (const void * a, const void * b)$/;"	f
+coarse_grain_off	graphene/lib/cache_driver.h	/^		index_t coarse_grain_off;$/;"	m	class:cache_driver
+col_ranger	graphene/lib/IO_smart_iterator.h	/^		vertex_t *col_ranger;$/;"	m	class:IO_smart_iterator
+col_ranger_beg	converter/multi_bin_to_2d_csr/util.hpp	/^	index_t col_ranger_beg;$/;"	m	struct:struct_ranger_beg
+col_ranger_beg	graphene/lib/IO_smart_iterator.h	/^		vertex_t col_ranger_beg, col_ranger_end;$/;"	m	class:IO_smart_iterator
+col_ranger_end	graphene/lib/IO_smart_iterator.h	/^		vertex_t col_ranger_beg, col_ranger_end;$/;"	m	class:IO_smart_iterator
+comp_t	graphene/test/apsp/util.h	/^typedef unsigned int comp_t;$/;"	t
+comp_t	graphene/test/bfs/util.h	/^typedef unsigned int comp_t;$/;"	t
+comp_t	graphene/test/kcore/util.h	/^typedef unsigned int comp_t;$/;"	t
+comp_t	graphene/test/pagerank/util.h	/^typedef unsigned int comp_t;$/;"	t
+comp_t	graphene/test/randomwalks/util.h	/^typedef unsigned int comp_t;$/;"	t
+comp_t	graphene/test/rw_pr/util.h	/^typedef unsigned int comp_t;$/;"	t
+comp_t	graphene/test/spmv/util.h	/^typedef unsigned int comp_t;$/;"	t
+comp_t	graphene/test/wcc/util.h	/^typedef unsigned int comp_t;$/;"	t
+comp_tid	graphene/lib/IO_smart_iterator.h	/^		int comp_tid; \/\/my thread id.$/;"	m	class:IO_smart_iterator
+compss	graphene/lib/IO_smart_iterator.h	/^		std::stringstream loadss,issuess,compss,sortss;$/;"	m	class:IO_smart_iterator
+computeError	graphene/lib/computeError.hpp	/^float computeError(v_t* s, v_t* t, int ntop){  \/\/assume ntop < 100, O(ntop^2)$/;"	f
+csr_2d_mem	converter/multi_bin_to_2d_csr/csr_2d_mem.hpp	/^void csr_2d_mem ($/;"	f
+csr_2d_mmap	converter/multi_bin_to_2d_csr/csr_2d_mmap.hpp	/^void csr_2d_mmap ($/;"	f
+ctx	graphene/lib/comm.h	/^	io_context_t ctx;\/\/aio context$/;"	m	struct:io_req
+cucc	graphene/test/apsp/Makefile	/^cucc= "$(shell which nvcc)"$/;"	m
+cucc	graphene/test/bfs/Makefile	/^cucc= "$(shell which nvcc)"$/;"	m
+cucc	graphene/test/kcore/Makefile	/^cucc= "$(shell which nvcc)"$/;"	m
+cucc	graphene/test/pagerank/Makefile	/^cucc= "$(shell which nvcc)"$/;"	m
+cucc	graphene/test/randomwalks/Makefile	/^cucc= "$(shell which nvcc)"$/;"	m
+cucc	graphene/test/rw_pr/Makefile	/^cucc= "$(shell which nvcc)"$/;"	m
+cucc	graphene/test/spmv/Makefile	/^cucc= "$(shell which nvcc)"$/;"	m
+cucc	graphene/test/wcc/Makefile	/^cucc= "$(shell which nvcc)"$/;"	m
+de_circle	graphene/lib/circle.cpp	/^int circle::de_circle()$/;"	f	class:circle
+deps	converter/multi_bin_to_2d_csr/Makefile	/^deps =	$(wildcard *.h) \\$/;"	m
+deps	converter/tuple_to_bin.multithread/Makefile	/^deps =$(wildcard *.h) \\$/;"	m
+deps	converter/tuple_to_bin.multithread/read/Makefile	/^deps = $(wildcard ..\/..\/lib\/*.h) \\$/;"	m
+deps	graphene/test/apsp/Makefile	/^deps =	$(wildcard ..\/..\/lib\/*.h) \\$/;"	m
+deps	graphene/test/bfs/Makefile	/^deps =	$(wildcard ..\/..\/lib\/*.h) \\$/;"	m
+deps	graphene/test/kcore/Makefile	/^deps =	$(wildcard ..\/..\/lib\/*.h) \\$/;"	m
+deps	graphene/test/pagerank/Makefile	/^deps =	$(wildcard ..\/..\/lib\/*.h) \\$/;"	m
+deps	graphene/test/randomwalks/Makefile	/^deps =	$(wildcard ..\/..\/lib\/*.h) \\$/;"	m
+deps	graphene/test/rw_pr/Makefile	/^deps =	$(wildcard ..\/..\/lib\/*.h) \\$/;"	m
+deps	graphene/test/spmv/Makefile	/^deps =	$(wildcard ..\/..\/lib\/*.h) \\$/;"	m
+deps	graphene/test/wcc/Makefile	/^deps =	$(wildcard ..\/..\/lib\/*.h) \\$/;"	m
+dest	converter/multi_bin_to_2d_csr/bin_struct_reader.h	/^   vertex_t dest;$/;"	m	struct:edge
+dumpIntoFile	graphene/lib/computeError.hpp	/^int dumpIntoFile(v_t* v, int ntop, char* outputFilename){$/;"	f
+edge	converter/multi_bin_to_2d_csr/bin_struct_reader.h	/^struct edge{$/;"	s
+edge_list	converter/multi_bin_to_2d_csr/bin_struct_reader.h	/^        edge<vertex_t> *edge_list;$/;"	m	class:bin_struct_reader
+en_circle	graphene/lib/circle.cpp	/^int circle::en_circle(int id)$/;"	f	class:circle
+errExit	graphene/lib/comm.h	26;"	d
+events	graphene/lib/cache_driver.h	/^		struct io_event *events;$/;"	m	class:cache_driver	typeref:struct:cache_driver::io_event
+exe	converter/multi_bin_to_2d_csr/Makefile	/^exe = multi_bin_to_2d_csr.bin$/;"	m
+exe	converter/tuple_to_bin.multithread/Makefile	/^exe = text_to_bin.bin$/;"	m
+exe	converter/tuple_to_bin.multithread/read/Makefile	/^exe = text_to_bin$/;"	m
+exe	graphene/test/apsp/Makefile	/^exe = aio_apsp.bin$/;"	m
+exe	graphene/test/bfs/Makefile	/^exe = aio_bfs.bin$/;"	m
+exe	graphene/test/kcore/Makefile	/^exe = aio_kcore.bin$/;"	m
+exe	graphene/test/pagerank/Makefile	/^exe = aio_pagerank.bin$/;"	m
+exe	graphene/test/randomwalks/Makefile	/^exe = aio_pagerank.bin$/;"	m
+exe	graphene/test/rw_pr/Makefile	/^exe = aio_pagerank.bin$/;"	m
+exe	graphene/test/spmv/Makefile	/^exe = aio_spmv.bin$/;"	m
+exe	graphene/test/wcc/Makefile	/^exe = aio_wcc_hybrid.bin$/;"	m
+fd	converter/multi_bin_to_2d_csr/bin_struct_reader.h	/^		int fd;$/;"	m	class:bin_struct_reader
+fd_csr	graphene/lib/IO_smart_iterator.h	/^		int fd_csr;$/;"	m	class:IO_smart_iterator
+fd_csr	graphene/lib/cache_driver.h	/^		int fd_csr;$/;"	m	class:cache_driver
+fetch_sz	graphene/lib/cache_driver.h	/^		long fetch_sz;$/;"	m	class:cache_driver
+flags	converter/multi_bin_to_2d_csr/Makefile	/^	flags = -O0 -g  -I. -fopenmp $/;"	m
+flags	converter/multi_bin_to_2d_csr/Makefile	/^	flags = -O3 -I. -fopenmp $/;"	m
+flags	converter/tuple_to_bin.multithread/Makefile	/^flags = -fopenmp $/;"	m
+flags	converter/tuple_to_bin.multithread/read/Makefile	/^flags = -O3 #-I..\/..\/lib\/ -I. -laio -fopenmp $/;"	m
+flags	graphene/test/apsp/Makefile	/^flags = -I..\/..\/lib\/ -I. -laio -fopenmp -O3$/;"	m
+flags	graphene/test/bfs/Makefile	/^flags = -I..\/..\/lib\/ -I. -laio -fopenmp $/;"	m
+flags	graphene/test/kcore/Makefile	/^flags = -I..\/..\/lib\/ -I. -laio -fopenmp -O3 $/;"	m
+flags	graphene/test/pagerank/Makefile	/^flags = -I..\/..\/lib\/ -I. -laio -fopenmp -O3$/;"	m
+flags	graphene/test/randomwalks/Makefile	/^flags = -I..\/..\/lib\/ -I. -laio -fopenmp -O0 -g$/;"	m
+flags	graphene/test/rw_pr/Makefile	/^flags = -I..\/..\/lib\/ -I. -laio -fopenmp -O0 -g$/;"	m
+flags	graphene/test/spmv/Makefile	/^flags = -I..\/..\/lib\/ -I. -laio -fopenmp -O3  $/;"	m
+flags	graphene/test/wcc/Makefile	/^flags = -I..\/..\/lib\/ -I. -laio -fopenmp -O3$/;"	m
+front_count	graphene/lib/IO_smart_iterator.h	/^		index_t *front_count;$/;"	m	class:IO_smart_iterator
+front_queue	graphene/lib/IO_smart_iterator.h	/^		vertex_t **front_queue;$/;"	m	class:IO_smart_iterator
+front_sort_cpu	graphene/lib/IO_smart_iterator.cpp	/^void IO_smart_iterator::front_sort_cpu()$/;"	f	class:IO_smart_iterator
+fsize	converter/tuple_to_bin.multithread/read/read_bin.cpp	/^inline off_t fsize(const char *filename) {$/;"	f
+fsize	converter/tuple_to_bin.multithread/tuple_text_to_bin.cpp	/^inline off_t fsize(const char *filename) {$/;"	f
+fsize	graphene/lib/comm.h	/^inline off_t fsize(const char *filename) {$/;"	f
+get_chunk	graphene/lib/cache_driver.cpp	/^circle *cache_driver::get_chunk()$/;"	f	class:cache_driver
+get_col_ranger	graphene/lib/get_col_ranger.hpp	/^inline index_t get_col_ranger($/;"	f
+get_sz	graphene/lib/circle.cpp	/^int circle::get_sz()$/;"	f	class:circle
+get_vert_count	graphene/lib/get_vert_count.hpp	/^inline index_t get_vert_count($/;"	f
+glb_vert_ranger	converter/multi_bin_to_2d_csr/glb_vert_ranger.hpp	/^glb_vert_ranger($/;"	f
+head	graphene/lib/circle.h	/^		int head;$/;"	m	class:circle
+index_t	converter/tuple_to_bin.multithread/tuple_text_to_bin.cpp	/^typedef long index_t;$/;"	t	file:
+index_t	graphene/test/apsp/util.h	/^typedef long index_t;$/;"	t
+index_t	graphene/test/bfs/util.h	/^typedef long index_t;$/;"	t
+index_t	graphene/test/kcore/util.h	/^typedef long index_t;$/;"	t
+index_t	graphene/test/pagerank/util.h	/^typedef long index_t;$/;"	t
+index_t	graphene/test/randomwalks/util.h	/^typedef long index_t;$/;"	t
+index_t	graphene/test/rw_pr/util.h	/^typedef long index_t;$/;"	t
+index_t	graphene/test/spmv/util.h	/^typedef long index_t;$/;"	t
+index_t	graphene/test/wcc/util.h	/^typedef long index_t;$/;"	t
+io_cbp	graphene/lib/comm.h	/^	struct iocb *io_cbp;\/\/aio call-back function pointer$/;"	m	struct:io_req	typeref:struct:io_req::iocb
+io_conserve	graphene/lib/IO_smart_iterator.h	/^		bool io_conserve;$/;"	m	class:IO_smart_iterator
+io_conserve	graphene/lib/cache_driver.h	/^		bool *io_conserve;$/;"	m	class:cache_driver
+io_limit	graphene/lib/cache_driver.h	/^		index_t io_limit;	$/;"	m	class:cache_driver
+io_list	graphene/lib/cache_driver.h	/^		struct io_req **io_list;$/;"	m	class:cache_driver	typeref:struct:cache_driver::io_req
+io_poll_time	graphene/lib/cache_driver.h	/^		double io_poll_time;$/;"	m	class:cache_driver
+io_req	graphene/lib/comm.h	/^struct io_req $/;"	s
+io_submit_time	graphene/lib/cache_driver.h	/^		double io_submit_time;$/;"	m	class:cache_driver
+io_time	graphene/lib/IO_smart_iterator.h	/^		double io_time;$/;"	m	class:IO_smart_iterator
+is_active	graphene/lib/IO_smart_iterator.h	/^		cb_func is_active;$/;"	m	class:IO_smart_iterator
+is_active	graphene/test/apsp/apsp.cpp	/^inline bool is_active$/;"	f
+is_active	graphene/test/bfs/bfs.cpp	/^inline bool is_active$/;"	f
+is_active	graphene/test/kcore/kcore.cpp	/^inline bool is_active$/;"	f
+is_active	graphene/test/pagerank/pagerank.cpp	/^inline bool is_active$/;"	f
+is_active	graphene/test/randomwalks/pagerank.cpp	/^inline bool is_active$/;"	f
+is_active	graphene/test/rw_pr/pagerank.cpp	/^inline bool is_active$/;"	f
+is_active	graphene/test/spmv/spmv.cpp	/^inline bool is_active$/;"	f
+is_bfs_active	graphene/test/wcc/wcc_hybrid.cpp	/^inline bool is_bfs_active$/;"	f
+is_bsp_done	graphene/lib/IO_smart_iterator.h	/^		volatile int is_bsp_done;$/;"	m	class:IO_smart_iterator
+is_empty	graphene/lib/circle.cpp	/^bool circle::is_empty()$/;"	f	class:circle
+is_full	graphene/lib/circle.cpp	/^bool circle::is_full()$/;"	f	class:circle
+is_io_done	graphene/lib/IO_smart_iterator.h	/^		volatile int is_io_done;$/;"	m	class:IO_smart_iterator
+is_wcc_active	graphene/test/wcc/wcc_hybrid.cpp	/^inline bool is_wcc_active$/;"	f
+issuess	graphene/lib/IO_smart_iterator.h	/^		std::stringstream loadss,issuess,compss,sortss;$/;"	m	class:IO_smart_iterator
+key_h	graphene/lib/IO_smart_iterator.h	/^		comp_t *key_h;$/;"	m	class:IO_smart_iterator
+keys_d	graphene/lib/IO_smart_iterator.h	/^		comp_t **keys_d;$/;"	m	class:IO_smart_iterator
+load_blk_off	graphene/lib/cache_driver.h	/^		index_t load_blk_off;$/;"	m	class:cache_driver
+load_chunk	graphene/lib/cache_driver.cpp	/^void cache_driver::load_chunk()$/;"	f	class:cache_driver
+load_chunk_full	graphene/lib/cache_driver.cpp	/^void cache_driver::load_chunk_full()$/;"	f	class:cache_driver
+load_chunk_iolist	graphene/lib/cache_driver.cpp	/^void cache_driver::load_chunk_iolist()$/;"	f	class:cache_driver
+load_key	graphene/lib/IO_smart_iterator.cpp	/^void IO_smart_iterator::load_key(sa_t criterion)$/;"	f	class:IO_smart_iterator
+load_key_iolist	graphene/lib/IO_smart_iterator.cpp	/^void IO_smart_iterator::load_key_iolist(sa_t criterion)$/;"	f	class:IO_smart_iterator
+load_kv_sa	graphene/lib/IO_smart_iterator.cpp	/^void IO_smart_iterator::load_kv_sa(sa_t criterion)$/;"	f	class:IO_smart_iterator
+load_kv_vert	graphene/lib/IO_smart_iterator.cpp	/^void IO_smart_iterator::load_kv_vert(sa_t criterion)$/;"	f	class:IO_smart_iterator
+load_kv_vert_full	graphene/lib/IO_smart_iterator.cpp	/^void IO_smart_iterator::load_kv_vert_full(sa_t criterion)$/;"	f	class:IO_smart_iterator
+load_sz	graphene/lib/comm.h	/^	index_t load_sz;\/\/-#verts loaded in this chunk$/;"	m	struct:chunk
+loadss	graphene/lib/IO_smart_iterator.h	/^		std::stringstream loadss,issuess,compss,sortss;$/;"	m	class:IO_smart_iterator
+lock	graphene/lib/circle.cpp	/^inline void lock(volatile int &flag)$/;"	f
+lock_head	graphene/lib/circle.h	/^		volatile int lock_head;$/;"	m	class:circle
+lock_tail	graphene/lib/circle.h	/^		volatile int lock_tail;$/;"	m	class:circle
+main	converter/multi_bin_to_2d_csr/main.cpp	/^int main(int args, char **argv)$/;"	f
+main	converter/tuple_to_bin.multithread/read/read_bin.cpp	/^main(int argc, char** argv){$/;"	f
+main	converter/tuple_to_bin.multithread/tuple_text_to_bin.cpp	/^int main(int argc, char** argv){$/;"	f
+main	graphene/test/apsp/apsp.cpp	/^int main(int argc, char **argv) $/;"	f
+main	graphene/test/bfs/bfs.cpp	/^int main(int argc, char **argv) $/;"	f
+main	graphene/test/kcore/kcore.cpp	/^int main(int argc, char **argv) $/;"	f
+main	graphene/test/pagerank/pagerank.cpp	/^int main(int argc, char **argv) $/;"	f
+main	graphene/test/randomwalks/pagerank.cpp	/^int main(int argc, char **argv) $/;"	f
+main	graphene/test/rw_pr/pagerank.cpp	/^int main(int argc, char **argv) $/;"	f
+main	graphene/test/spmv/spmv.cpp	/^int main(int argc, char **argv) $/;"	f
+main	graphene/test/wcc/wcc_hybrid.cpp	/^int main(int argc, char **argv) $/;"	f
+max_vert	converter/multi_bin_to_2d_csr/bin_struct_reader.h	/^        vertex_t max_vert;$/;"	m	class:bin_struct_reader
+min_vert	converter/multi_bin_to_2d_csr/bin_struct_reader.h	/^        vertex_t min_vert;$/;"	m	class:bin_struct_reader
+misaligned_col	converter/multi_bin_to_2d_csr/util.hpp	/^inline int misaligned_col(vertex_t *col_ranger, int num_cols, vertex_t dest , int aligned_row)$/;"	f
+my_col	graphene/lib/IO_smart_iterator.h	/^		int my_col, my_row;$/;"	m	class:IO_smart_iterator
+my_level	graphene/lib/IO_smart_iterator.h	/^		sa_t my_level;$/;"	m	class:IO_smart_iterator
+my_row	graphene/lib/IO_smart_iterator.h	/^		int my_col, my_row;$/;"	m	class:IO_smart_iterator
+my_row_col	converter/multi_bin_to_2d_csr/util.hpp	/^inline void my_row_col(struct_ranger_beg<index_t> **st_beg, int num_rows, int num_cols, vertex_t src, vertex_t dest, int &my_row, int &my_col)$/;"	f
+next	graphene/lib/IO_smart_iterator.cpp	/^int IO_smart_iterator::next(int used_buff)$/;"	f	class:IO_smart_iterator
+num_buffs	graphene/lib/IO_smart_iterator.h	/^		index_t num_buffs;$/;"	m	class:IO_smart_iterator
+num_chunks	graphene/lib/cache_driver.h	/^		index_t num_chunks;$/;"	m	class:cache_driver
+num_cols	graphene/lib/IO_smart_iterator.h	/^		int num_cols;$/;"	m	class:IO_smart_iterator
+num_edges	converter/multi_bin_to_2d_csr/bin_struct_reader.h	/^        index_t num_edges;$/;"	m	class:bin_struct_reader
+num_elem	graphene/lib/circle.h	/^		volatile int num_elem;$/;"	m	class:circle
+num_elements	graphene/lib/IO_smart_iterator.h	/^		long num_elements;$/;"	m	class:IO_smart_iterator
+num_ios	graphene/lib/comm.h	/^	index_t num_ios;$/;"	m	struct:io_req
+num_rows	graphene/lib/IO_smart_iterator.h	/^		int num_rows;$/;"	m	class:IO_smart_iterator
+objs	converter/multi_bin_to_2d_csr/Makefile	/^objs =$(patsubst %.cpp,%.o,$(wildcard *.cpp))$/;"	m
+objs	converter/tuple_to_bin.multithread/Makefile	/^objs = $(patsubst %.cpp,%.o,$(wildcard *.cpp))$/;"	m
+objs	converter/tuple_to_bin.multithread/read/Makefile	/^objs = $(patsubst %.cpp,%.o,$(wildcard ..\/..\/lib\/*.cpp)) \\$/;"	m
+objs	graphene/test/apsp/Makefile	/^objs = $(patsubst %.cpp,%.o,$(wildcard ..\/..\/lib\/*.cpp)) \\$/;"	m
+objs	graphene/test/bfs/Makefile	/^objs = $(patsubst %.cpp,%.o,$(wildcard ..\/..\/lib\/*.cpp)) \\$/;"	m
+objs	graphene/test/kcore/Makefile	/^objs = $(patsubst %.cpp,%.o,$(wildcard ..\/..\/lib\/*.cpp)) \\$/;"	m
+objs	graphene/test/pagerank/Makefile	/^objs = $(patsubst %.cpp,%.o,$(wildcard ..\/..\/lib\/*.cpp)) \\$/;"	m
+objs	graphene/test/randomwalks/Makefile	/^objs = $(patsubst %.cpp,%.o,$(wildcard ..\/..\/lib\/*.cpp)) \\$/;"	m
+objs	graphene/test/rw_pr/Makefile	/^objs = $(patsubst %.cpp,%.o,$(wildcard ..\/..\/lib\/*.cpp)) \\$/;"	m
+objs	graphene/test/spmv/Makefile	/^objs = $(patsubst %.cpp,%.o,$(wildcard ..\/..\/lib\/*.cpp)) \\$/;"	m
+objs	graphene/test/wcc/Makefile	/^objs = $(patsubst %.cpp,%.o,$(wildcard ..\/..\/lib\/*.cpp)) \\$/;"	m
+p2d_partition	converter/multi_bin_to_2d_csr/p2d_partition.hpp	/^void p2d_partition ($/;"	f
+packed_edge	converter/tuple_to_bin.multithread/read/read_bin.cpp	/^typedef struct packed_edge {$/;"	s	file:
+packed_edge	converter/tuple_to_bin.multithread/read/read_bin.cpp	/^} packed_edge;$/;"	t	typeref:struct:packed_edge	file:
+packed_edge	converter/tuple_to_bin.multithread/tuple_text_to_bin.cpp	/^typedef struct packed_edge {$/;"	s	file:
+packed_edge	converter/tuple_to_bin.multithread/tuple_text_to_bin.cpp	/^} packed_edge;$/;"	t	typeref:struct:packed_edge	file:
+pin_thread	graphene/lib/pin_thread.h	/^int pin_thread($/;"	f
+pin_thread_socket	graphene/lib/pin_thread.h	/^int pin_thread_socket(int *core_id, int num_cores){$/;"	f
+piocb	graphene/lib/cache_driver.h	/^		struct iocb **piocb;$/;"	m	class:cache_driver	typeref:struct:cache_driver::iocb
+printLog	graphene/lib/outputLog.hpp	/^int printLog(int level, int vert_count, sa_t* sa_curr, const char* beg_dir, bool output_sorted=true){$/;"	f
+priority_queue	graphene/lib/IO_smart_iterator.cpp	/^void IO_smart_iterator::priority_queue(int *acq_seq, int *seq_flag) $/;"	f	class:IO_smart_iterator
+randomInt	graphene/test/randomwalks/pagerank.cpp	15;"	d	file:
+randomInt	graphene/test/rw_pr/pagerank.cpp	15;"	d	file:
+readFromFile	graphene/lib/computeError.hpp	/^v_t* readFromFile(int ntop, char* inputFilename){$/;"	f
+read_trace_to_bitmap	graphene/lib/IO_smart_iterator.cpp	/^void IO_smart_iterator::read_trace_to_bitmap(char *trace_file)$/;"	f	class:IO_smart_iterator
+read_trace_to_list	graphene/lib/IO_smart_iterator.cpp	/^void IO_smart_iterator::read_trace_to_list(char *trace_file)$/;"	f	class:IO_smart_iterator
+regularize	graphene/lib/computeError.hpp	/^v_t* regularize(std::pair<int,T> *v, int n){$/;"	f
+req_convert_list	graphene/lib/IO_smart_iterator.cpp	/^void IO_smart_iterator::req_convert_list()$/;"	f	class:IO_smart_iterator
+req_translator	graphene/lib/IO_smart_iterator.cpp	/^void IO_smart_iterator::req_translator(sa_t criterion)$/;"	f	class:IO_smart_iterator
+req_translator_queue	graphene/lib/IO_smart_iterator.cpp	/^void IO_smart_iterator::req_translator_queue()$/;"	f	class:IO_smart_iterator
+reqt_blk_bitmap	graphene/lib/IO_smart_iterator.h	/^		bit_t *reqt_blk_bitmap;$/;"	m	class:IO_smart_iterator
+reqt_blk_bitmap	graphene/lib/cache_driver.h	/^		bit_t *reqt_blk_bitmap;$/;"	m	class:cache_driver
+reqt_blk_count	graphene/lib/IO_smart_iterator.h	/^		index_t reqt_blk_count; \/\/ number of request to be issued$/;"	m	class:IO_smart_iterator
+reqt_blk_count	graphene/lib/cache_driver.h	/^		index_t *reqt_blk_count;$/;"	m	class:cache_driver
+reqt_list	graphene/lib/IO_smart_iterator.h	/^		index_t *reqt_list;$/;"	m	class:IO_smart_iterator
+reqt_list	graphene/lib/cache_driver.h	/^		index_t *reqt_list;$/;"	m	class:cache_driver
+res_compare	graphene/lib/outputLog.hpp	/^bool res_compare(std::pair<int,float> a, std::pair<int,float> b){$/;"	f
+reset_circle	graphene/lib/circle.cpp	/^void circle::reset_circle()$/;"	f	class:circle
+ring_vert_count	graphene/lib/IO_smart_iterator.h	/^		index_t ring_vert_count;$/;"	m	class:IO_smart_iterator
+row_ranger_beg	converter/multi_bin_to_2d_csr/util.hpp	/^	index_t row_ranger_beg;$/;"	m	struct:struct_ranger_beg
+row_ranger_beg	graphene/lib/IO_smart_iterator.h	/^		vertex_t row_ranger_beg, row_ranger_end;$/;"	m	class:IO_smart_iterator
+row_ranger_end	graphene/lib/IO_smart_iterator.h	/^		vertex_t row_ranger_beg, row_ranger_end;$/;"	m	class:IO_smart_iterator
+sa_prev	graphene/lib/IO_smart_iterator.h	/^		sa_t *sa_prev;$/;"	m	class:IO_smart_iterator
+sa_ptr	graphene/lib/IO_smart_iterator.h	/^		sa_t *sa_ptr;$/;"	m	class:IO_smart_iterator
+sa_t	graphene/test/apsp/util.h	/^typedef unsigned int sa_t;$/;"	t
+sa_t	graphene/test/bfs/util.h	/^typedef unsigned char sa_t;$/;"	t
+sa_t	graphene/test/kcore/util.h	/^typedef int sa_t;$/;"	t
+sa_t	graphene/test/pagerank/util.h	/^typedef float sa_t;$/;"	t
+sa_t	graphene/test/randomwalks/util.h	/^typedef float sa_t;$/;"	t
+sa_t	graphene/test/rw_pr/util.h	/^typedef float sa_t;$/;"	t
+sa_t	graphene/test/spmv/util.h	/^typedef unsigned int sa_t;$/;"	t
+sa_t	graphene/test/wcc/util.h	/^typedef int sa_t;$/;"	t
+save_sz	graphene/lib/cache_driver.h	/^		long save_sz;$/;"	m	class:cache_driver
+semaphore_acq	graphene/lib/IO_smart_iterator.h	/^		int *semaphore_acq;$/;"	m	class:IO_smart_iterator
+semaphore_flag	graphene/lib/IO_smart_iterator.h	/^		int *semaphore_flag;$/;"	m	class:IO_smart_iterator
+size	graphene/lib/circle.h	/^		int size;$/;"	m	class:circle
+sort_criterion	graphene/lib/IO_smart_iterator.h	/^		long sort_criterion;$/;"	m	class:IO_smart_iterator
+sort_req	graphene/lib/IO_smart_iterator.h	/^		int sort_req;$/;"	m	class:IO_smart_iterator
+sortss	graphene/lib/IO_smart_iterator.h	/^		std::stringstream loadss,issuess,compss,sortss;$/;"	m	class:IO_smart_iterator
+src	converter/multi_bin_to_2d_csr/bin_struct_reader.h	/^   vertex_t src;$/;"	m	struct:edge
+status	graphene/lib/comm.h	/^	int status;\/\/- define the chunks status. as EVICTED, LOADING ... $/;"	m	struct:chunk
+struct_ranger_beg	converter/multi_bin_to_2d_csr/util.hpp	/^struct struct_ranger_beg$/;"	s
+submit_io_req	graphene/lib/cache_driver.cpp	/^void cache_driver::submit_io_req(index_t io_id)$/;"	f	class:cache_driver
+success_sort	graphene/lib/IO_smart_iterator.h	/^		int success_sort;$/;"	m	class:IO_smart_iterator
+tail	graphene/lib/circle.h	/^		int tail;$/;"	m	class:circle
+time_out	graphene/lib/cache_driver.h	/^		struct timespec *time_out;$/;"	m	class:cache_driver	typeref:struct:cache_driver::timespec
+tm_out	graphene/lib/IO_smart_iterator.h	/^		int tm_out;$/;"	m	class:IO_smart_iterator
+toint	graphene/test/randomwalks/pagerank.cpp	/^int toint(float a){$/;"	f
+toint	graphene/test/rw_pr/pagerank.cpp	/^int toint(float a){$/;"	f
+total_blks	graphene/lib/IO_smart_iterator.h	/^		index_t total_blks;$/;"	m	class:IO_smart_iterator
+total_blks	graphene/lib/cache_driver.h	/^		index_t total_blks;$/;"	m	class:cache_driver
+ultra_balanced_2d_partition	converter/multi_bin_to_2d_csr/ultra_balanced_2d_partition.hpp	/^void ultra_balanced_2d_partition ($/;"	f
+unlock	graphene/lib/circle.cpp	/^inline void unlock(volatile int &flag)$/;"	f
+v0	converter/tuple_to_bin.multithread/read/read_bin.cpp	/^	  long int v0;$/;"	m	struct:packed_edge	file:
+v0	converter/tuple_to_bin.multithread/tuple_text_to_bin.cpp	/^	  vertex_t v0;$/;"	m	struct:packed_edge	file:
+v1	converter/tuple_to_bin.multithread/read/read_bin.cpp	/^	  long int v1;$/;"	m	struct:packed_edge	file:
+v1	converter/tuple_to_bin.multithread/tuple_text_to_bin.cpp	/^	  vertex_t v1;$/;"	m	struct:packed_edge	file:
+v_t	graphene/lib/computeError.hpp	/^typedef std::pair<int,float> v_t;$/;"	t
+val_h	graphene/lib/IO_smart_iterator.h	/^		sa_t *val_h;$/;"	m	class:IO_smart_iterator
+vals_d	graphene/lib/IO_smart_iterator.h	/^		sa_t **vals_d;$/;"	m	class:IO_smart_iterator
+vert_per_chunk	graphene/lib/IO_smart_iterator.h	/^		index_t vert_per_chunk;$/;"	m	class:IO_smart_iterator
+vert_per_chunk	graphene/lib/cache_driver.h	/^		index_t vert_per_chunk;$/;"	m	class:cache_driver
+vert_ranger	converter/multi_bin_to_2d_csr/bin_struct_reader.hpp	/^vert_ranger()$/;"	f	class:bin_struct_reader
+vertex_t	converter/tuple_to_bin.multithread/tuple_text_to_bin.cpp	/^typedef long vertex_t;$/;"	t	file:
+vertex_t	graphene/test/apsp/util.h	/^typedef unsigned int  vertex_t;$/;"	t
+vertex_t	graphene/test/bfs/util.h	/^typedef unsigned vertex_t;$/;"	t
+vertex_t	graphene/test/kcore/util.h	/^typedef unsigned int  vertex_t;$/;"	t
+vertex_t	graphene/test/pagerank/util.h	/^typedef unsigned int  vertex_t;$/;"	t
+vertex_t	graphene/test/randomwalks/util.h	/^typedef unsigned int  vertex_t;$/;"	t
+vertex_t	graphene/test/rw_pr/util.h	/^typedef unsigned int  vertex_t;$/;"	t
+vertex_t	graphene/test/spmv/util.h	/^typedef unsigned int vertex_t;$/;"	t
+vertex_t	graphene/test/wcc/util.h	/^typedef unsigned int vertex_t;$/;"	t
+wait_comp_time	graphene/lib/IO_smart_iterator.h	/^		double wait_comp_time;$/;"	m	class:IO_smart_iterator
+wait_io_time	graphene/lib/IO_smart_iterator.h	/^		double wait_io_time;$/;"	m	class:IO_smart_iterator
+wtime	converter/multi_bin_to_2d_csr/wtime.h	/^inline double wtime()$/;"	f
+wtime	graphene/lib/wtime.h	/^inline double wtime()$/;"	f
+~IO_smart_iterator	graphene/lib/IO_smart_iterator.cpp	/^IO_smart_iterator::~IO_smart_iterator()$/;"	f	class:IO_smart_iterator
+~bin_struct_reader	converter/multi_bin_to_2d_csr/bin_struct_reader.h	/^        virtual ~bin_struct_reader()$/;"	f	class:bin_struct_reader
+~cache_driver	graphene/lib/cache_driver.cpp	/^cache_driver::~cache_driver()$/;"	f	class:cache_driver
+~circle	graphene/lib/circle.cpp	/^circle::~circle()$/;"	f	class:circle

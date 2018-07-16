@@ -1,0 +1,14 @@
+#!/bin/bash
+	for(( nwalks = 10000000; nwalks <= 10000000; nwalks *= 10 ))
+	do
+          for(( nsteps = 100; nsteps <= 100; nsteps *= 10 ))
+          do
+                echo "nwalks = " $nwalks " nsteps = " $nsteps " from echo"
+                echo "nwalks = " $nwalks " nsteps = " $nsteps " from echo" >> graphchi_metrics.txt.statistics 
+    		  for(( times = 0; times < 10; times++))
+    		  do
+                echo "times = " $times " from echo"
+                bin/applications/avgdegree file '/home/wang/Documents/graph processing system/dataset/C++-LiveJournal1/soc-LiveJournal1.txt' nvertices 4847571 nwalks $nwalks nsteps $nsteps
+    		  done
+          done
+	done

@@ -1,0 +1,36 @@
+
+
+shell begin -- graphchi 
+prob =   nsteps =  100   nwalks =  1000   from echo
+292  	  561.06
+269  	  537.942
+309  	  559.618
+294  	  589.834
+267  	  603.222
+prob =   nsteps =  100   nwalks =  10000   from echo
+371  	  750.89
+368  	  691.897
+311  	  624.35
+
+
+shell begin -- graphchi  ( cut 20% tail )
+prob =   nsteps =  100   nwalks =  10000   from echo
+141  	  286.176
+146  	  304.316
+157  	  308.781
+138  	  255.968
+149  	  305.52
+
+
+shell begin -- graphchi ( max weight )
+prob =   nsteps =  100   nwalks =  10000   from echo
+267  	  509.695
+
+
+shell begin -- graphchi 
+prob =   nsteps =  100   nwalks =  10000   from echo
+282  	  526.768
+316  	  652.3
+294  	  497.656
+281  	  607.972
+302  	  492.925

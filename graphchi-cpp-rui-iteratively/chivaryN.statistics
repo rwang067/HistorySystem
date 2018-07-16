@@ -1,0 +1,20 @@
+1200  	  2289.32
+nwalks =  10000  nsteps =  100  from echo
+1200  	  3187.5
+1200  	  3364.62
+1200  	  3089.91
+1200  	  3370.88
+1200  	  2477.98
+1200  	  2032.05
+1200  	  2581.36
+1200  	  2163.58
+nwalks =  100000  nsteps =  100  from echo
+1200  	  2665.56
+1200  	  3148.22
+nwalks =  1000000  nsteps =  100  from echo
+1200  	  3210.14
+1200  	  3175.15
+1200  	  3199.91
+nwalks =  10000000  nsteps =  100  from echo
+nwalks =  100000  nsteps =  100  from echo
+nwalks =  10000000  nsteps =  100  from echo
